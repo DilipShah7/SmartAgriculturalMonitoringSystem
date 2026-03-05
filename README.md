@@ -93,4 +93,11 @@ SmartAgri/
 
 ---
 
+WiFi Connection Process
+When the ESP32 is powered on for the first time, it enters setup mode and displays WiFi Setup Mode on the LCD screen.
+On your phone or laptop, open the WiFi settings and connect to a hotspot named System-WiFi-Setup. Once connected, a setup page will automatically open in your browser. If it does not open automatically, manually go to 192.168.4.1 in your browser.
+On that page, select your home or local WiFi network from the list and enter its password, then save. The ESP32 will connect to your WiFi and show Connected! along with its IP address on the LCD screen.
+From the next boot onwards, the ESP32 remembers the WiFi credentials and connects automatically — no setup needed again.
+To access the dashboard, open any browser on the same WiFi network and go to the IP address shown on the LCD, for example http://192.168.1.45.
+
 <p align="center">Made with ❤️ for Smart Farming</p>
