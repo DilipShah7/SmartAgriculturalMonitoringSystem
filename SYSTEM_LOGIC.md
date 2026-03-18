@@ -16,7 +16,7 @@ Initialize Sensors, LCD, Serial
    │
    ▼
 WiFiManager Captive Portal
-   │  (user connects to "Love-Bot-Setup" hotspot)
+   │  (user connects to "System-WiFi-Setup" hotspot)
    │  (user selects WiFi and enters password)
    ▼
 Connected to WiFi
