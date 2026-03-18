@@ -106,7 +106,7 @@ void setup() {
   lcd.setCursor(0,1); lcd.print("Check Phone WiFi");
 
   WiFiManager wm;
-  wm.autoConnect("Love-Bot-Setup"); // Create hotspot
+  wm.autoConnect("System-WiFi-Setup"); // Create hotspot
 
   lcd.clear();
   lcd.print("Connected!");
